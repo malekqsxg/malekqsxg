@@ -1,0 +1,13 @@
+      boolean value = file.createNewFile();
+      if (value) {
+        System.out.println("新文件已创建。");
+      }
+      else {
+        System.out.println("该文件已经存在。");
+      }
+    }
+    catch(Exception e) {
+      e.getStackTrace();
+    }
+  }
+}
